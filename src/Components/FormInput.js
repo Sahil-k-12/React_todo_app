@@ -54,7 +54,7 @@ const FormInput = ({
           onChange={changeHandler}
         />
       </div>
-      <button>Add Todo</button>
+      <button>{editItem ? "Update Todo" : "Add Todo"}</button>
     </form>
   );
 };
