@@ -1,0 +1,68 @@
+.todo {
+  font-size: 18px;
+  border: 2px solid white;
+  height: 90px;
+  margin: 20px auto;
+  width: 80%;
+  background-color: rgba(244, 244, 248, 0.897);
+  border-radius: 50px;
+}
+.done {
+  background: lightgreen;
+}
+.todo-text {
+  margin: 10px;
+}
+.todo-buttons {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.todo-edit {
+  margin: 2px auto;
+}
+.edit {
+  border: 4px solid orange;
+}
+.todo-edit button {
+  border: 2px solid white;
+  cursor: pointer;
+  width: 100px;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  background-color: blue;
+}
+.todo-edit button:hover {
+  background-color: rgb(8, 47, 71);
+}
+.todo-delete {
+  margin: 2px auto;
+}
+.todo-delete button {
+  border: 2px solid white;
+  cursor: pointer;
+  width: 100px;
+  padding: 10px;
+  color: white;
+  border-radius: 20px;
+  background-color: red;
+}
+.todo-delete button:hover {
+  background-color: rgb(230, 76, 76);
+}
+.todo-done {
+  margin: 2px auto;
+}
+.todo-done button {
+  border: 2px solid white;
+  cursor: pointer;
+  width: 100px;
+  padding: 10px;
+  color: white;
+  border-radius: 20px;
+  background-color: green;
+}
+.todo-done button:hover {
+  background-color: rgb(85, 134, 10);
+}
